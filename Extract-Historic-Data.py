@@ -28,7 +28,7 @@ business_name = 'BUSINESS ENVIRONMENT NAME'
 
 conn = http.client.HTTPSConnection(business_name+".BUSINESS DOMAIN WITH REGION AND AUTH0.")
 
-payload = "{\"client_id\":\""+client_id+"\",\"client_secret\":\""+client_secret+"\",\"audience\":\"https://"+business_name+".eu.auth0.com/api/v2/\",\"grant_type\":\"client_credentials\"}"
+payload = "{\"client_id\":\""+client_id+"\",\"client_secret\":\""+client_secret+"\",\"audience\":\"https://"+business_name+"REGION AND AUTH0 DETAILS/api/v2/\",\"grant_type\":\"client_credentials\"}"
 
 headers = { 'content-type': "application/json" }
 
